@@ -80,6 +80,7 @@ h2, h4 {
     width: 1000px;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 
 .month {
@@ -111,6 +112,7 @@ h2, h4 {
     height: 500px;
     width: 1100px;
     display: block;
+    margin-top:70px;
 
 }
 .locations .title{
@@ -126,6 +128,7 @@ h2, h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 15px;
 }
 .store{
     background-color: black;
