@@ -16,7 +16,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     height: 69px;
     border-bottom: 1px solid seashell;
@@ -53,7 +53,7 @@ nav span{
     align-items: center;
 }
 h2, h4 {
-    margin: 0px;
+    margin: auto;
     padding: 10px;
 }
 
@@ -62,10 +62,10 @@ h2, h4 {
 .mission{
     background-image: url(../images/img-mission-background.jpg);
     height: 700px;
-    
+    width: 1200px;
     z-index: 1;
 }
-.title {
+.mission .title {
     display: block;
     background-color: black;
     position: relative;
@@ -106,3 +106,39 @@ h2, h4 {
     text-align: center;
 }
 /*Location*/
+.locations {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    width: 1100px;
+    display: block;
+
+}
+.locations .title{
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+    justify-content: center;
+    top: 30px;
+    z-index: 1;
+}
+.stores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.store{
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+    opacity: 1;
+    padding: 10px 0px;
+}
+.contact {
+    display: block;
+    height: 200px;
+}
+footer{
+    text-align: left;
+    padding-left: 20px;
+}
